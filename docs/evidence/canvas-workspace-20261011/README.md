@@ -2,7 +2,7 @@
 
 Original synthetic artwork, captured offscreen at 1200 x 800, scale 1, with PhotoCraft's snapshot example. No photographs or externally sourced artwork were used. License: adjacent LICENSE-MIT; upstream UI and branding retain their existing notices.
 
-The before runtime is upstream commit 03f4cc0d. Only test/capture helpers from the proposed patch were copied into that detached checkout, without any runtime fixes. The four new after captures use the runtime source at f5a9f06b, rebased onto e1a13013. The two context-menu after captures were taken at 47dfb2ea before rebasing; the menu fix is identical after rebasing.
+The before runtime is upstream commit 03f4cc0d. Only test/capture helpers from the proposed patch were copied into that detached checkout, without any runtime fixes. All six after captures use runtime source 78e89655, rebased onto upstream 0c4016a4. The before and after captures use the same synthetic artwork and input sequences.
 
 | Issue | Input | Before | After |
 |---|---|---|---|
